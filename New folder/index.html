@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri&family=M+PLUS+1:wght@300;400&family=Merriweather:ital@1&family=Montserrat:wght@300;400&family=Mulish:ital,wght@1,500&family=Oxygen&family=Poppins:wght@300;400;500&family=Radio+Canada:wght@300&family=Roboto+Slab:wght@300;400&family=Roboto:ital@1&family=Vollkorn:ital@1&display=swap"
+        rel="stylesheet">
+    <title>sportswander</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body style=" font-family: 'Poppins', sans-serif;">
+
+    <nav class="navbar navbar-expand-lg navbar-static-top navbar-light  navbar-transparent pt-4 pb-4 ms-5">
+        <!-- <div class="container-fluid" style="color: #666;"> -->
+            <a class="navbar-brand me-5" href="#"><img src="logo1.svg" alt="sportswander" height="20px" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <form class="d-flex">
+                   <input class="searchh me-3" type="search" placeholder="Search for events and venues "
+                            aria-label="Search"
+                            style="border-radius: 13px; width: 350px; padding-left: 50px; position:relative;font-size: smaller;">
+                    </form>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-geo-alt-fill text-primary"></i> Tamil Nadu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt-fill"></i> Erode</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt-fill"></i> Coimbatore</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt-fill"></i> Tirupur</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt-fill"></i> Salem</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt-fill"></i> Karur</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt-fill"></i> Namakkal</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                            <button class="btn btnn  me-3" style="border-radius: 50px;" type="button"> <span class="me-3">Book Venues</span></button></li>
+                             <li class="nav-item"><button class="btn btnn me-3" style="border-radius: 50px;" type="button"> <span class="me-3">Book Events</span></button></li>
+                             <li class="nav-item"><button class="btn btnn  me-3" style="border-radius: 50px;" type="button"> <span class="me-3">Parter with us</span></button></li>
+                             <li class="nav-item"><button class="btn bg-primary text-light me-3" style="border-radius: 50px;" type="button">
+                                <span style="font-weight:bold;padding-left: 10px;padding-right: 10px;">Login</span></button></li>
+</ul>
+                        </form>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-6" style="padding-top: 150px">
+                <h1 style="font-size: 50px;padding-bottom: 15px;">Sports Wander</h1>
+                <p style="color: rgb(121, 120, 120);padding-bottom: 15px;">Sports wander is a digital platform for sports enthusiasts to find and book a curated list of sports events and sports venue</p>
+                <img src="gpay.png" alt="" height="50px">
+            </div>
+            <div class="col-sm-12 col-md-6 img" style="padding-top:100px;">
+                <img src="home.jpeg"  width="500px" height="350px" class="img-responsive" alt="" style="border-radius:20px ;">
+            </div>
+        </div>
+    </div>
+    <section>
+        <div id="carouselExampleControls" class="carousel  slide d-none d-sm-block" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+        <div class="card-wrapper">
+          <a href="events.html" style="text-decoration: none;margin-left: 25px;">  <div class="card" style="width: 20rem;">
+                <div class="image-wrapper" >
+                <img src="marathon.jpeg" width="450px" height="400px">
+                </div>
+                <div class="card-body">
+                    <h5 style="margin-top: 30px;color: black;">Erode Marathon</h5>
+                  <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Erode</p>
+                  <div style="display: flex;justify-content:space-between">    <p>Free</p>
+                    <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+              
+                </div>
+            </div></a>
+          
+                <a href="events.html" style="text-decoration: none">
+                <div class="card" style="width: 20rem;">
+                    <div class="image-wrapper">
+                    <img src="owl2.png" width="650px" height="500px" >
+       </div>        
+               <div class="card-body">
+                      <h5 style="margin-top: 30px;color: black;">Football Fanmeet</h5>
+                  <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Chennai</p>
+                  <div style="display: flex;justify-content:space-between">    <p>Free</p>
+                    <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+                    </div>
+                </div></a>
+            
+              <a href="events.html" style="text-decoration: none;"> 
+                 <div class="card" style="width: 20rem;">
+                    <div class="image-wrapper">
+                    <img src="owl3.jfif" width="650px" height="500px">
+   </div>          
+   <div class="card-body">
+    <h5 style="margin-top: 30px;color: black;">Monthly Challange</h5>
+    <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Coimbatore</p> 
+    <div style="display: flex;justify-content:space-between">    <p>Free</p>
+      <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+</div>
+                </div></a>
+    
+                <a href="events.html" style="text-decoration:none"><div class="card" style="width: 20rem;">
+                    <div class="image-wrapper">
+                    <img src="owl5.jpg" width="650px" height="500px" >
+    
+    </div>             
+     <div class="card-body">
+        <h5 style="margin-top: 30px;color: black;">HBL League</h5>
+        <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Salem</p> 
+        <div style="display: flex;justify-content:space-between">    <p>Free</p>
+          <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card-wrapper">
+                <a href="events.html" style="text-decoration: none;margin-left: 20px;">
+                    <div class="card" style="width: 20rem;">
+                    <div class="image-wrapper">
+                    <img src="owl4.jfif" width="650px" height="500px">
+   
+   </div>                 <div class="card-body">
+    <h5 style="margin-top: 30px;color: black;">Virtual Marathon</h5>
+    <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Tiruchy</p>
+    <div style="display: flex;justify-content:space-between">    <p>Free</p>
+      <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+                    </div>
+                </div></a>
+                <a href="events.html" style="text-decoration: none;">
+                    <div class="card" style="width: 20rem;">
+                    <div class="image-wrapper">
+                    <img src="owl6.jpg" width="650px" height="500px">
+   
+   </div>                 <div class="card-body">
+    <h5 style="margin-top: 30px;color: black;">Nean Run</h5>
+    <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Namakkal</p>
+    <div style="display: flex;justify-content:space-between">    <p>Free</p>
+      <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+                    </div>
+                </div></a>
+        </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row ">
+                <div class="col-11">
+                    <h1>Explore  Venues</h1>
+                    <h5 class="text-muted mb-5"  >Reawaken the child in you <img src="batball.png" height="25px" width="35px"></h5>
+                </div>
+        <div id="carouselExampleControls" class="carousel  slide d-none d-sm-block" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+        <div class="card-wrapper">    <div class="col-md-2 mb-3 me-4">
+            <div class="card" style="width: 20rem;">
+                <div class="image-wrapper">
+                <img src="st1.jfif" height="450px" width="400px" style="border-radius:30px" alt="100%x280" >
+                <div class="card-body">
+                    <a href="#" style="text-decoration:none;color:black"> <h6 class="card-title">Chepauk</h6></a>
+                        <a href="#" style="text-decoration:none;"><p class="card-text text-muted">Chennai</p></a>
+
+                </div>
+
+            </div>
+        </div></a>
+          
+                <a href="events.html" style="text-decoration: none">
+                <div class="card" style="width: 20rem;">
+                    <div class="image-wrapper">
+                    <img src="owl2.png" width="650px" height="500px" >
+       </div>        
+               <div class="card-body">
+                      <h5 style="margin-top: 30px;color: black;">Football Fanmeet</h5>
+                  <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Chennai</p>
+                  <div style="display: flex;justify-content:space-between">    <p>Free</p>
+                    <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+                    </div>
+                </div></a>
+            
+              <a href="events.html" style="text-decoration: none;"> 
+                 <div class="card" style="width: 20rem;">
+                    <div class="image-wrapper">
+                    <img src="owl3.jfif" width="650px" height="500px">
+   </div>          
+   <div class="card-body">
+    <h5 style="margin-top: 30px;color: black;">Monthly Challange</h5>
+    <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Coimbatore</p> 
+    <div style="display: flex;justify-content:space-between">    <p>Free</p>
+      <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+</div>
+                </div></a>
+    
+                <a href="events.html" style="text-decoration:none"><div class="card" style="width: 20rem;">
+                    <div class="image-wrapper">
+                    <img src="owl5.jpg" width="650px" height="500px" >
+    
+    </div>             
+     <div class="card-body">
+        <h5 style="margin-top: 30px;color: black;">HBL League</h5>
+        <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Salem</p> 
+        <div style="display: flex;justify-content:space-between">    <p>Free</p>
+          <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card-wrapper">
+                <a href="events.html" style="text-decoration: none;margin-left: 20px;">
+                    <div class="card" style="width: 20rem;">
+                    <div class="image-wrapper">
+                    <img src="owl4.jfif" width="650px" height="500px">
+   
+   </div>                 <div class="card-body">
+    <h5 style="margin-top: 30px;color: black;">Virtual Marathon</h5>
+    <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Tiruchy</p>
+    <div style="display: flex;justify-content:space-between">    <p>Free</p>
+      <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+                    </div>
+                </div></a>
+                <a href="events.html" style="text-decoration: none;">
+                    <div class="card" style="width: 20rem;">
+                    <div class="image-wrapper">
+                    <img src="owl6.jpg" width="650px" height="500px">
+   
+   </div>                 <div class="card-body">
+    <h5 style="margin-top: 30px;color: black;">Nean Run</h5>
+    <p class="text-muted" style="margin-top: 10px;font-size: 14.7px;"><span class="me-4"><i class="fa-solid fa-calendar-day"></i> 15.06.2022</span>  <i class="fa-solid fa-location-dot"></i> Namakkal</p>
+    <div style="display: flex;justify-content:space-between">    <p>Free</p>
+      <button type="button" class="btn btn-outline-secondary " style="border-radius:20px">online</button></div>
+                    </div>
+                </div></a>
+        </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section >
+        <div class="container">
+            <div class="row ">
+                <div class="col-11">
+                    <h1>Explore  Venues</h1>
+                    <h5 class="text-muted mb-5"  >Reawaken the child in you <img src="batball.png" height="25px" width="35px"></h5>
+                </div>
+                <div class="col-1 text-right " >
+                    <a class="btn btn-outline-dark mb-3 mr-1" style="border-radius: 70px;" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                    <a class="btn btn-outline-dark mb-3 mr-1" style="border-radius: 70px;" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="col-12 ">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+    
+                        <div class="carousel-inner">
+                           
+                            <div class="carousel-item active">
+                              
+                                <div class="row">
+                                   
+                                    <div class="col-md-2 mb-3 me-4">
+                                        <div class="card"style="border:none">
+                                            <img height="300px" weight="250px" style="border-radius:30px" alt="100%x280" src="st1.jfif">
+                                            <div class="card-body">
+                                                <a href="#" style="text-decoration:none;color:black"> <h6 class="card-title">Chepauk</h6></a>
+                                                    <a href="#" style="text-decoration:none;"><p class="card-text text-muted">Chennai</p></a>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 mb-3 me-4">
+                                        <div class="card"style="border:none">
+                                            <img height="300px" weight="250px" style="border-radius:30px" alt="100%x280" src="st2.jpg">
+                                            <div class="card-body">
+                                                <a href="#" style="text-decoration:none;color:black"><h6 class="card-title">Wankhade</h6></a>
+                                                <a href="#" style="text-decoration:none;"><p class="card-text text-muted">Mumbai</p></a>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 mb-3 me-4">
+                                        <div class="card"style="border:none">
+                                            <img height="300px" weight="250px" style="border-radius:30px" alt="100%x280" src="st32.jpg">
+                                            <div class="card-body">
+                                                <a href="#" style="text-decoration:none;color:black"> <h6 class="card-title">Eden Garden</h6></a>
+                                                    <a href="#" style="text-decoration:none;"> <p class="card-text text-muted">Kolkata</p></a>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 mb-3 me-4">
+                                        <div class="card"style="border:none">
+                                            <img height="300px" weight="250px" style="border-radius:30px" alt="100%x280" src="st4.jfif">
+                                            <div class="card-body">
+                                                <a href="#" style="text-decoration:none;color:black">  <h6 class="card-title">Dharmasala</h6></a>
+                                                    <a href="#" style="text-decoration:none;"> <p class="card-text text-muted">Punjab</p></a>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="col-md-2 mb-3 me-4">
+                                        <div class="card"style="border:none">
+                                            <img height="300px" weight="250px" style="border-radius:30px" alt="100%x280" src="st5.jpg">
+                                            <div class="card-body">
+                                                <a href="#" style="text-decoration:none;color:black"><h6 class="card-title">Motera</h6></a>
+                                                <a href="#" style="text-decoration:none;"><p class="card-text text-muted">Gujarat</p></a>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+    
+                                  
+                                  
+                                    <div class="col-md-2 mb-3 me-4">
+                                        <div class="card"style="border:none">
+                                            <img height="300px" weight="250px" style="border-radius:30px" alt="100%x280" src="st1.jfif">
+                                            <div class="card-body">
+                                                <a href="#" style="text-decoration:none;color:black"> <h6 class="card-title">Rajeev Gandhi</h6></a>
+                                                    <a href="#" style="text-decoration:none;"> <p class="card-text text-muted">Hydrabad</p></a>
+    
+                                            </div>
+                                        </div>
+                                    </div>  
+                                    <div class="col-md-2 mb-3 me-4">
+                                        <div class="card"style="border:none">
+                                            <img height="300px" weight="250px" style="border-radius:30px" alt="100%x280" src="st1.jfif">
+                                            <div class="card-body">
+                                                <a href="#" style="text-decoration:none;color:black"> <h6 class="card-title">Chepauk</h6></a>
+                                                    <a href="#" style="text-decoration:none;"><p class="card-text text-muted">Chennai</p></a>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 mb-3 me-4">
+                                        <div class="card"style="border:none">
+                                            <img height="300px" weight="250px" style="border-radius:30px" alt="100%x280" src="st2.jpg">
+                                            <div class="card-body">
+                                                <a href="#" style="text-decoration:none;color:black"><h6 class="card-title">Wankhade</h6></a>
+                                                <a href="#" style="text-decoration:none;"><p class="card-text text-muted">Mumbai</p></a>
+    
+                                          
+                                        </div>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img.png" alt="" height="800" max-width="800">
+            </div>
+          
+            <div class="col-md-9 mt-5" >
+              <p class="text-muted">BENEFITS</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+
+<script src="	https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="	https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+ 
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/dce4797218.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+       
+        <script src="https://kit.fontawesome.com/dce4797218.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+<script type="text/javascript">
+  $('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:false,
+
+
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+})
+</script>
+</body>
+
+</html>
